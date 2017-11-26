@@ -1,0 +1,5 @@
+<!--引入name= movieGridTemplate 的模板 -->
+<import src="../movie-grid/movie-grid-template.wxml"/>
+
+<template is="movieGridTemplate" data="{{movies}}"></template>
+

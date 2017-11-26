@@ -1,0 +1,41 @@
+/*引入name= movieTemplate 的模板的样式  */
+@import "../movie/movie-template.wxss";
+
+/*movie-list最外层容器  */
+.movie-list-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-container{
+  margin: 0 auto 20rpx;
+}
+
+/*正在热映 更多 箭头的容器 */
+.movie-head {
+  padding: 30rpx 20rpx 22rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.slogan {
+  font-size: 24rpx;
+  padding-top:15rpx;
+}
+.more{
+}
+.more-text{
+  margin-right: 10rpx;
+  color:#1f4ba5;
+}
+.more-img{
+  width:9rpx;
+  height: 16rpx;
+}
+
+/*承装3个movieTemplate的容器  */
+.movies-container{
+  display: flex;
+  flex-direction: row;
+}

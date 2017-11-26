@@ -1,0 +1,15 @@
+<view class="container">
+
+<!-- 图片   -->
+<image src="../../images/avatar/4.png" class="user-avatar"></image> 
+
+<!--文本上  -->
+<text class="user-name">hello,Jacqueline</text> 
+
+
+<!--文本下  -->
+<view class="moto-container" bindtap="onTap">
+  <text class="moto">开启小程序之旅</text>
+</view> 
+
+</view>

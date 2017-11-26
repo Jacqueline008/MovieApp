@@ -1,0 +1,16 @@
+@import "/pages/posts/post-item/post-item-template.wxss";
+
+/*轮播图  */
+swiper{
+  width:100%;
+  height: 600rpx;
+}
+swiper image{
+  width:100%;
+  height: 100%;
+}
+
+
+
+
+

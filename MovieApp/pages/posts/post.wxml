@@ -1,0 +1,32 @@
+<!--引入post-item文件夹下的模板wxml  -->
+<import src="post-item/post-item-template.wxml"/>
+
+<view>
+
+<!--轮播图  -->
+<swiper catchtap="onSwiperTap" indicator-dots='true' autoplay='true' interval='5000'>
+  <swiper-item>
+    <image src="/images/wx.png" data-postid="3"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/vr.png" data-postid="4"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/iqiyi.png" data-postid="5"></image>
+  </swiper-item>
+</swiper>
+
+<!--文章  -->
+<block wx:for="{{posts_key}}" wx:for-item="item">
+
+  <!--为了点击事件从而加入的一个view  -->
+  <view catchtap='onPostTap' data-postid="{{item.postid}}">
+
+  <!--post-item文件夹下的模板wxml-->
+  <template is="postItem" data="{{...item}}"></template>
+
+  </view>
+
+</block>
+
+</view>

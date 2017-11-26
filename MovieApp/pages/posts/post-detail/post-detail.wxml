@@ -1,0 +1,28 @@
+<view class="container">
+
+<!--文章图片  -->
+<image class="head-image" src="{{isPlayingMusic?postData.music.coverImg:postData.headImgSrc}}"></image>
+<!--音乐播放按钮  -->
+<image catchtap="onMusicTap" class='auto' src="{{isPlayingMusic?'/images/music/music-stop.png':'/images/music/music-start.png'}}"></image>
+<!--文章发表信息  -->
+<view class="author-date">
+  <image class="avatar" src="{{postData.avatar}}"></image>
+  <text class="author">{{postData.author}}</text>
+  <text class="const-text">发表于</text>
+  <text class="date">{{postData.dateTime}}</text>
+</view>
+<!--文章标题  -->
+<text class="title">{{postData.title}}</text>
+<!--分享  -->
+<view class="tool">
+  <view class="circle-img">
+    <image wx:if="{{collected}}" catchtap='onCollectionTap' src="/images/icon/collection.png"></image>
+    <image wx:else catchtap='onCollectionTap' src="/images/icon/collection-anti.png"></image>
+    <image catchtap="onShareTap" class="share-img" src="/images/icon/share.png"></image>
+  </view>
+  <view class="horizon"></view>
+</view>
+<!--文章正文  -->
+<text class="detail">{{postData.detail}}</text>
+
+</view>

@@ -1,0 +1,34 @@
+<!--引入name=movieListTemplate的模板  -->
+<import src="movie-list/movie-list-template.wxml"/>
+<!--引入name=movieGridTemplate的模板  -->
+<import src="movie-grid/movie-grid-template.wxml"/>
+
+
+<!--搜索栏  -->
+<view class="search">
+  <icon class="search-img" type="search" size="13" color="#405f80"></icon>
+  <input type="text" placeholder='夏有乔木雅望天堂' placeholder-class='placeholder' 
+  bindfocus='onBindFocus' bindconfirm='onBindConfirm'/>
+  <image class="xx-img" src="/images/icon/xx.png" bindtap="onCancelImgTap"
+  wx:if="{{searchPanelShow}}"></image>
+</view>
+
+<!--3栏的电影展示  -->
+<view class="container" wx:if="{{containerShow}}">
+  <view class="movies-template">
+    <template is="movieListTemplate" data="{{...inTheaters}}"></template>
+  </view>
+
+  <view class="movies-template">
+    <template is="movieListTemplate" data="{{...comingSoon}}"></template>
+  </view>
+
+  <view class="movies-template">
+    <template is="movieListTemplate" data="{{...top250}}"></template>
+  </view>
+</view>
+
+<!--搜索栏的展示结果  -->
+<view class="search-panel" wx:if="{{searchPanelShow}}">
+  <template is="movieGridTemplate" data="{{...searchResult}}"></template>
+</view>

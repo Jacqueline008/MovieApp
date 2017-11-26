@@ -1,0 +1,22 @@
+/*starsTemplate模板最外层容器  */
+.stars-container{
+  display:flex;
+  flex-direction:row;
+}
+
+/*包裹5个星星的容器  */
+.stars{
+  display:flex;
+  flex-direction: row;
+  height:17rpx;
+  margin-right:24rpx;
+  margin-top:6rpx;
+}
+.stars image{
+  width:17rpx;
+  height:17rpx;
+  padding-left: 3rpx;
+}
+.star-score{
+  color:#1f3463;
+}

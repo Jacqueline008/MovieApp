@@ -1,0 +1,23 @@
+<template name="postItem">
+  <view class='post-container'>
+    <!--文章作者和日期  -->
+    <view class='post-author-date'>
+                                  <!-- {{item.avatar}} -->
+        <image class='post-author' src="{{avatar}}"></image>
+        <text class='post-date'>{{date}}</text>    
+    </view>
+    <!--文章标题  -->
+    <view class="post-title">{{title}}</view>
+    <!--文章图片  -->
+    <image class='post-image' src='{{imgSrc}}'></image>
+    <!--文章内容  -->
+    <view class='post-content'>{{content}}</view>
+    <!--文章欢迎度  -->
+    <view class='post-like'>
+        <image class='post-like-image' src='/images/icon/chat.png'></image>
+        <text class='post-like-font'>{{collection}}</text>
+        <image class='post-like-image' src='/images/icon/view.png'></image>
+        <text class='post-like-font'>{{reading}}</text>
+    </view>
+  </view>
+</template>

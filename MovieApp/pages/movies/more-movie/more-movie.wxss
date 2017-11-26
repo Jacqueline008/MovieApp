@@ -1,0 +1,2 @@
+/*引入name= movieTemplate 的模板的样式  */
+@import "../movie-grid/movie-grid-template.wxss";
