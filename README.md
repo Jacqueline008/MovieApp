@@ -26,7 +26,7 @@
 <img src="https://github.com/Jacqueline008/MovieApp/blob/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%88%AA%E5%9B%BE/4-%E7%94%B5%E5%BD%B1%E5%88%97%E8%A1%A8.JPG?raw=true">
 
 #### 更多电影界面
-<img src="https://github.com/Jacqueline008/MovieApp/blob/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%88%AA%E5%9B%BE/1-%E5%90%AF%E5%8A%A8%E9%A1%B5%E9%9D%A2.JPG?raw=true">
+<img src="https://github.com/Jacqueline008/MovieApp/blob/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%88%AA%E5%9B%BE/5-%E6%9B%B4%E5%A4%9A%E7%94%B5%E5%BD%B1%E9%A1%B5%E9%9D%A2.JPG?raw=true">
 
 #### 电影搜索界面
 <img src="https://github.com/Jacqueline008/MovieApp/blob/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%88%AA%E5%9B%BE/6-%E7%94%B5%E5%BD%B1%E6%90%9C%E7%B4%A2%E9%A1%B5%E9%9D%A2.JPG?raw=true">
